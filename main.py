@@ -9,4 +9,6 @@ account_balance = '12'
 
 # res = account_balance / 2
 
-print(isinstance(account_balance, int))
+# print(isinstance(account_balance, int))
+
+print(res.json())
