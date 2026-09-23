@@ -1,0 +1,1 @@
+print(22, 9, 1011, sep='-') #Não se pode usar 0 no inicio de um numero inteiro.
