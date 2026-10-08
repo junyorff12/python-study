@@ -11,5 +11,7 @@ print(passou_no_if, passou_no_if is None)
 print(passou_no_if, passou_no_if is not None)
 
 
+
+
     
     
