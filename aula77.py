@@ -1,23 +1,22 @@
 
 print('Jogo da palavra secreta')
 
-palava_secreta = 'avestruz'
+palavra_secreta = 'avestruz'
 qtd_tentativas = 0
+letras_certas = ''
 palavra_formatada = ''
 
-for i in palava_secreta:
-    palavra_formatada[i] = '*'
-
 while True:
-    letra = input('Digite uma letra:')
-    for i in palava_secreta:
-        if letra == i:
-            print(letra)
-        else: 
-            print("*")    
-    qtd_tentativas += 1
+    letra = input("Digita uma letra: ")
+    if len(letra) > 1:
+        print('Digite somente uma letra:')
+        continue
+    if letra in palavra_secreta:
+        letras_certas += letra
 
-print(palavra_formatada)
+    if len(letras_certas) == len(palavra_secreta):
+        
+
 
 
 
