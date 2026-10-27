@@ -1,3 +1,4 @@
 {
-    "editor.overtypeCursorStyle": "line"
+    "editor.overtypeCursorStyle": "line",
+    "code-runner.runInTerminal": true
 }
