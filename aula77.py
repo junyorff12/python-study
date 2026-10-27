@@ -7,7 +7,6 @@ def limpar_terminal() -> None:
     elif sys.platform == 'win32':
         os.system('cls')
 
-
 print('Jogo da palavra secreta')
 
 palavra_secreta = 'avestruz'
