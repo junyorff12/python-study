@@ -8,5 +8,5 @@ print(enum)
 
 n = enumerate(t)
 
-for i in n:
-    print(i[0], type(i))
+for i, v in n:
+    print(i, v)
