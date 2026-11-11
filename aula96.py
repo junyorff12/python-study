@@ -1,1 +1,1 @@
-print('olá,');  print('Mundo')
+print('olá,');  print('Mundo') # É possivel usar ';' no python
